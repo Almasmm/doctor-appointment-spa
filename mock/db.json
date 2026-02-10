@@ -1,0 +1,2658 @@
+{
+  "services": [
+    {
+      "id": "service-therapist",
+      "name": "Консультация терапевта",
+      "durationMin": 30,
+      "priceKzt": 9000
+    },
+    {
+      "id": "service-cardiologist",
+      "name": "Консультация кардиолога",
+      "durationMin": 40,
+      "priceKzt": 12000
+    },
+    {
+      "id": "service-pediatrician",
+      "name": "Консультация педиатра",
+      "durationMin": 30,
+      "priceKzt": 9500
+    },
+    {
+      "id": "service-endocrinologist",
+      "name": "Консультация эндокринолога",
+      "durationMin": 40,
+      "priceKzt": 12500
+    },
+    {
+      "id": "service-ecg",
+      "name": "ЭКГ",
+      "durationMin": 20,
+      "priceKzt": 6000
+    },
+    {
+      "id": "service-dermatoscopy",
+      "name": "Дерматоскопия",
+      "durationMin": 25,
+      "priceKzt": 8000
+    }
+  ],
+  "doctors": [
+    {
+      "id": "doctor-1",
+      "fullName": "Иванова Мария Сергеевна",
+      "specialty": "Терапевт",
+      "rating": 4.9,
+      "clinicName": "Клиника \"Здоровье+\"",
+      "serviceIds": [
+        "service-therapist"
+      ]
+    },
+    {
+      "id": "doctor-2",
+      "fullName": "Петров Алексей Викторович",
+      "specialty": "Кардиолог",
+      "rating": 4.8,
+      "clinicName": "Медцентр \"Cardio Life\"",
+      "serviceIds": [
+        "service-cardiologist",
+        "service-ecg"
+      ]
+    },
+    {
+      "id": "doctor-3",
+      "fullName": "Садыкова Алия Ерлановна",
+      "specialty": "Педиатр",
+      "rating": 4.7,
+      "clinicName": "Детская клиника \"Аяла\"",
+      "serviceIds": [
+        "service-pediatrician"
+      ]
+    },
+    {
+      "id": "doctor-4",
+      "fullName": "Ким Андрей Олегович",
+      "specialty": "Эндокринолог",
+      "rating": 4.8,
+      "clinicName": "Центр эндокринологии \"Balance\"",
+      "serviceIds": [
+        "service-endocrinologist"
+      ]
+    },
+    {
+      "id": "doctor-5",
+      "fullName": "Ахметова Диана Руслановна",
+      "specialty": "Дерматолог",
+      "rating": 4.9,
+      "clinicName": "Клиника \"Derma Expert\"",
+      "serviceIds": [
+        "service-dermatoscopy"
+      ]
+    },
+    {
+      "id": "doctor-6",
+      "fullName": "Нуртаев Марат Бекенович",
+      "specialty": "Невролог",
+      "rating": 4.6,
+      "clinicName": "Невроцентр \"Импульс\"",
+      "serviceIds": [
+        "service-therapist",
+        "service-endocrinologist"
+      ]
+    },
+    {
+      "id": "doctor-7",
+      "fullName": "Омарова Жанна Тимуровна",
+      "specialty": "Оториноларинголог",
+      "rating": 4.7,
+      "clinicName": "ЛОР-центр \"Свободное дыхание\"",
+      "serviceIds": [
+        "service-therapist"
+      ]
+    },
+    {
+      "id": "doctor-8",
+      "fullName": "Беков Тимур Асхатович",
+      "specialty": "Гастроэнтеролог",
+      "rating": 4.8,
+      "clinicName": "Гастро-клиника \"ЖКТ Плюс\"",
+      "serviceIds": [
+        "service-therapist",
+        "service-endocrinologist"
+      ]
+    }
+  ],
+  "slots": [
+    {
+      "id": "slot-doctor-1-20260209-1",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-09T09:00:00.4667221+05:00",
+      "endAtISO": "2026-02-09T09:45:00.4667221+05:00",
+      "status": "booked"
+    },
+    {
+      "id": "slot-doctor-1-20260209-2",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-09T10:00:00.4789743+05:00",
+      "endAtISO": "2026-02-09T10:45:00.4789743+05:00",
+      "status": "booked"
+    },
+    {
+      "id": "slot-doctor-1-20260209-3",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-09T11:00:00.4792499+05:00",
+      "endAtISO": "2026-02-09T11:45:00.4792499+05:00",
+      "status": "booked"
+    },
+    {
+      "id": "slot-doctor-1-20260209-4",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-09T14:00:00.4794096+05:00",
+      "endAtISO": "2026-02-09T14:45:00.4794096+05:00",
+      "status": "booked"
+    },
+    {
+      "id": "slot-doctor-1-20260209-5",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-09T15:00:00.4795502+05:00",
+      "endAtISO": "2026-02-09T15:45:00.4795502+05:00",
+      "status": "booked"
+    },
+    {
+      "id": "slot-doctor-1-20260209-6",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-09T16:00:00.4796977+05:00",
+      "endAtISO": "2026-02-09T16:45:00.4796977+05:00",
+      "status": "booked"
+    },
+    {
+      "id": "slot-doctor-1-20260210-1",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-10T09:00:00.4798646+05:00",
+      "endAtISO": "2026-02-10T09:45:00.4798646+05:00",
+      "status": "booked"
+    },
+    {
+      "id": "slot-doctor-1-20260210-2",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-10T10:00:00.4799880+05:00",
+      "endAtISO": "2026-02-10T10:45:00.4799880+05:00",
+      "status": "booked"
+    },
+    {
+      "id": "slot-doctor-1-20260210-3",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-10T11:00:00.4801035+05:00",
+      "endAtISO": "2026-02-10T11:45:00.4801035+05:00",
+      "status": "booked"
+    },
+    {
+      "id": "slot-doctor-1-20260210-4",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-10T14:00:00.4802195+05:00",
+      "endAtISO": "2026-02-10T14:45:00.4802195+05:00",
+      "status": "booked"
+    },
+    {
+      "id": "slot-doctor-1-20260210-5",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-10T15:00:00.4803320+05:00",
+      "endAtISO": "2026-02-10T15:45:00.4803320+05:00",
+      "status": "booked"
+    },
+    {
+      "id": "slot-doctor-1-20260210-6",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-10T16:00:00.4804583+05:00",
+      "endAtISO": "2026-02-10T16:45:00.4804583+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-1-20260211-1",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-11T09:00:00.4806022+05:00",
+      "endAtISO": "2026-02-11T09:45:00.4806022+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-1-20260211-2",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-11T10:00:00.4807240+05:00",
+      "endAtISO": "2026-02-11T10:45:00.4807240+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-1-20260211-3",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-11T11:00:00.4809517+05:00",
+      "endAtISO": "2026-02-11T11:45:00.4809517+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-1-20260211-4",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-11T14:00:00.4810784+05:00",
+      "endAtISO": "2026-02-11T14:45:00.4810784+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-1-20260211-5",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-11T15:00:00.4811918+05:00",
+      "endAtISO": "2026-02-11T15:45:00.4811918+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-1-20260211-6",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-11T16:00:00.4813046+05:00",
+      "endAtISO": "2026-02-11T16:45:00.4813046+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-1-20260212-1",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-12T09:00:00.4814257+05:00",
+      "endAtISO": "2026-02-12T09:45:00.4814257+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-1-20260212-2",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-12T10:00:00.4815385+05:00",
+      "endAtISO": "2026-02-12T10:45:00.4815385+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-1-20260212-3",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-12T11:00:00.4816483+05:00",
+      "endAtISO": "2026-02-12T11:45:00.4816483+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-1-20260212-4",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-12T14:00:00.4817587+05:00",
+      "endAtISO": "2026-02-12T14:45:00.4817587+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-1-20260212-5",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-12T15:00:00.4818680+05:00",
+      "endAtISO": "2026-02-12T15:45:00.4818680+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-1-20260212-6",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-12T16:00:00.4819917+05:00",
+      "endAtISO": "2026-02-12T16:45:00.4819917+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-1-20260213-1",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-13T09:00:00.4821169+05:00",
+      "endAtISO": "2026-02-13T09:45:00.4821169+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-1-20260213-2",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-13T10:00:00.4822265+05:00",
+      "endAtISO": "2026-02-13T10:45:00.4822265+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-1-20260213-3",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-13T11:00:00.4823356+05:00",
+      "endAtISO": "2026-02-13T11:45:00.4823356+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-1-20260213-4",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-13T14:00:00.4824569+05:00",
+      "endAtISO": "2026-02-13T14:45:00.4824569+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-1-20260213-5",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-13T15:00:00.4825674+05:00",
+      "endAtISO": "2026-02-13T15:45:00.4825674+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-1-20260213-6",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-13T16:00:00.4826761+05:00",
+      "endAtISO": "2026-02-13T16:45:00.4826761+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-1-20260214-1",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-14T09:00:00.4828043+05:00",
+      "endAtISO": "2026-02-14T09:45:00.4828043+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-1-20260214-2",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-14T10:00:00.4829181+05:00",
+      "endAtISO": "2026-02-14T10:45:00.4829181+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-1-20260214-3",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-14T11:00:00.4830343+05:00",
+      "endAtISO": "2026-02-14T11:45:00.4830343+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-1-20260214-4",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-14T14:00:00.4831454+05:00",
+      "endAtISO": "2026-02-14T14:45:00.4831454+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-1-20260214-5",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-14T15:00:00.4832539+05:00",
+      "endAtISO": "2026-02-14T15:45:00.4832539+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-1-20260214-6",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-14T16:00:00.4833620+05:00",
+      "endAtISO": "2026-02-14T16:45:00.4833620+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-1-20260215-1",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-15T09:00:00.4834891+05:00",
+      "endAtISO": "2026-02-15T09:45:00.4834891+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-1-20260215-2",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-15T10:00:00.4836019+05:00",
+      "endAtISO": "2026-02-15T10:45:00.4836019+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-1-20260215-3",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-15T11:00:00.4837220+05:00",
+      "endAtISO": "2026-02-15T11:45:00.4837220+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-1-20260215-4",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-15T14:00:00.4838391+05:00",
+      "endAtISO": "2026-02-15T14:45:00.4838391+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-1-20260215-5",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-15T15:00:00.4839477+05:00",
+      "endAtISO": "2026-02-15T15:45:00.4839477+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-1-20260215-6",
+      "doctorId": "doctor-1",
+      "startAtISO": "2026-02-15T16:00:00.4840697+05:00",
+      "endAtISO": "2026-02-15T16:45:00.4840697+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260209-1",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-09T09:00:00.4841922+05:00",
+      "endAtISO": "2026-02-09T09:45:00.4841922+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260209-2",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-09T10:00:00.4843137+05:00",
+      "endAtISO": "2026-02-09T10:45:00.4843137+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260209-3",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-09T11:00:00.4844365+05:00",
+      "endAtISO": "2026-02-09T11:45:00.4844365+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260209-4",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-09T14:00:00.4845529+05:00",
+      "endAtISO": "2026-02-09T14:45:00.4845529+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260209-5",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-09T15:00:00.4846638+05:00",
+      "endAtISO": "2026-02-09T15:45:00.4846638+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260209-6",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-09T16:00:00.4847742+05:00",
+      "endAtISO": "2026-02-09T16:45:00.4847742+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260210-1",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-10T09:00:00.4848918+05:00",
+      "endAtISO": "2026-02-10T09:45:00.4848918+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260210-2",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-10T10:00:00.4850008+05:00",
+      "endAtISO": "2026-02-10T10:45:00.4850008+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260210-3",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-10T11:00:00.4851150+05:00",
+      "endAtISO": "2026-02-10T11:45:00.4851150+05:00",
+      "status": "booked"
+    },
+    {
+      "id": "slot-doctor-2-20260210-4",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-10T14:00:00.4852232+05:00",
+      "endAtISO": "2026-02-10T14:45:00.4852232+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260210-5",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-10T15:00:00.4853317+05:00",
+      "endAtISO": "2026-02-10T15:45:00.4853317+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260210-6",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-10T16:00:00.4854403+05:00",
+      "endAtISO": "2026-02-10T16:45:00.4854403+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260211-1",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-11T09:00:00.4855590+05:00",
+      "endAtISO": "2026-02-11T09:45:00.4855590+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260211-2",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-11T10:00:00.4856712+05:00",
+      "endAtISO": "2026-02-11T10:45:00.4856712+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260211-3",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-11T11:00:00.4857819+05:00",
+      "endAtISO": "2026-02-11T11:45:00.4857819+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260211-4",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-11T14:00:00.4858917+05:00",
+      "endAtISO": "2026-02-11T14:45:00.4858917+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260211-5",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-11T15:00:00.4860005+05:00",
+      "endAtISO": "2026-02-11T15:45:00.4860005+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260211-6",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-11T16:00:00.4861142+05:00",
+      "endAtISO": "2026-02-11T16:45:00.4861142+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260212-1",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-12T09:00:00.4862333+05:00",
+      "endAtISO": "2026-02-12T09:45:00.4862333+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260212-2",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-12T10:00:00.4863425+05:00",
+      "endAtISO": "2026-02-12T10:45:00.4863425+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260212-3",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-12T11:00:00.4864681+05:00",
+      "endAtISO": "2026-02-12T11:45:00.4864681+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260212-4",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-12T14:00:00.4865800+05:00",
+      "endAtISO": "2026-02-12T14:45:00.4865800+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260212-5",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-12T15:00:00.4866873+05:00",
+      "endAtISO": "2026-02-12T15:45:00.4866873+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260212-6",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-12T16:00:00.4867950+05:00",
+      "endAtISO": "2026-02-12T16:45:00.4867950+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260213-1",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-13T09:00:00.4869091+05:00",
+      "endAtISO": "2026-02-13T09:45:00.4869091+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260213-2",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-13T10:00:00.4870162+05:00",
+      "endAtISO": "2026-02-13T10:45:00.4870162+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260213-3",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-13T11:00:00.4871249+05:00",
+      "endAtISO": "2026-02-13T11:45:00.4871249+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260213-4",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-13T14:00:00.4872370+05:00",
+      "endAtISO": "2026-02-13T14:45:00.4872370+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260213-5",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-13T15:00:00.4873448+05:00",
+      "endAtISO": "2026-02-13T15:45:00.4873448+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260213-6",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-13T16:00:00.4874523+05:00",
+      "endAtISO": "2026-02-13T16:45:00.4874523+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260214-1",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-14T09:00:00.4875676+05:00",
+      "endAtISO": "2026-02-14T09:45:00.4875676+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260214-2",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-14T10:00:00.4876754+05:00",
+      "endAtISO": "2026-02-14T10:45:00.4876754+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260214-3",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-14T11:00:00.4877833+05:00",
+      "endAtISO": "2026-02-14T11:45:00.4877833+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260214-4",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-14T14:00:00.4878901+05:00",
+      "endAtISO": "2026-02-14T14:45:00.4878901+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260214-5",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-14T15:00:00.4879956+05:00",
+      "endAtISO": "2026-02-14T15:45:00.4879956+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260214-6",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-14T16:00:00.4881030+05:00",
+      "endAtISO": "2026-02-14T16:45:00.4881030+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260215-1",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-15T09:00:00.4882221+05:00",
+      "endAtISO": "2026-02-15T09:45:00.4882221+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260215-2",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-15T10:00:00.4883302+05:00",
+      "endAtISO": "2026-02-15T10:45:00.4883302+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260215-3",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-15T11:00:00.4884493+05:00",
+      "endAtISO": "2026-02-15T11:45:00.4884493+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260215-4",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-15T14:00:00.4885610+05:00",
+      "endAtISO": "2026-02-15T14:45:00.4885610+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260215-5",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-15T15:00:00.4886683+05:00",
+      "endAtISO": "2026-02-15T15:45:00.4886683+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-2-20260215-6",
+      "doctorId": "doctor-2",
+      "startAtISO": "2026-02-15T16:00:00.4887766+05:00",
+      "endAtISO": "2026-02-15T16:45:00.4887766+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260209-1",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-09T09:00:00.4889139+05:00",
+      "endAtISO": "2026-02-09T09:45:00.4889139+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260209-2",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-09T10:00:00.4890242+05:00",
+      "endAtISO": "2026-02-09T10:45:00.4890242+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260209-3",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-09T11:00:00.4891319+05:00",
+      "endAtISO": "2026-02-09T11:45:00.4891319+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260209-4",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-09T14:00:00.4892428+05:00",
+      "endAtISO": "2026-02-09T14:45:00.4892428+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260209-5",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-09T15:00:00.4893723+05:00",
+      "endAtISO": "2026-02-09T15:45:00.4893723+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260209-6",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-09T16:00:00.4894952+05:00",
+      "endAtISO": "2026-02-09T16:45:00.4894952+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260210-1",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-10T09:00:00.4896190+05:00",
+      "endAtISO": "2026-02-10T09:45:00.4896190+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260210-2",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-10T10:00:00.4897298+05:00",
+      "endAtISO": "2026-02-10T10:45:00.4897298+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260210-3",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-10T11:00:00.4898364+05:00",
+      "endAtISO": "2026-02-10T11:45:00.4898364+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260210-4",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-10T14:00:00.4899433+05:00",
+      "endAtISO": "2026-02-10T14:45:00.4899433+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260210-5",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-10T15:00:00.4900490+05:00",
+      "endAtISO": "2026-02-10T15:45:00.4900490+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260210-6",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-10T16:00:00.4901560+05:00",
+      "endAtISO": "2026-02-10T16:45:00.4901560+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260211-1",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-11T09:00:00.4902774+05:00",
+      "endAtISO": "2026-02-11T09:45:00.4902774+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260211-2",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-11T10:00:00.4903860+05:00",
+      "endAtISO": "2026-02-11T10:45:00.4903860+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260211-3",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-11T11:00:00.4905066+05:00",
+      "endAtISO": "2026-02-11T11:45:00.4905066+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260211-4",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-11T14:00:00.4906150+05:00",
+      "endAtISO": "2026-02-11T14:45:00.4906150+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260211-5",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-11T15:00:00.4907221+05:00",
+      "endAtISO": "2026-02-11T15:45:00.4907221+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260211-6",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-11T16:00:00.4908358+05:00",
+      "endAtISO": "2026-02-11T16:45:00.4908358+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260212-1",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-12T09:00:00.4909503+05:00",
+      "endAtISO": "2026-02-12T09:45:00.4909503+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260212-2",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-12T10:00:00.4910582+05:00",
+      "endAtISO": "2026-02-12T10:45:00.4910582+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260212-3",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-12T11:00:00.4911647+05:00",
+      "endAtISO": "2026-02-12T11:45:00.4911647+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260212-4",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-12T14:00:00.4912766+05:00",
+      "endAtISO": "2026-02-12T14:45:00.4912766+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260212-5",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-12T15:00:00.4913817+05:00",
+      "endAtISO": "2026-02-12T15:45:00.4913817+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260212-6",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-12T16:00:00.4914876+05:00",
+      "endAtISO": "2026-02-12T16:45:00.4914876+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260213-1",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-13T09:00:00.4916019+05:00",
+      "endAtISO": "2026-02-13T09:45:00.4916019+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260213-2",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-13T10:00:00.4917087+05:00",
+      "endAtISO": "2026-02-13T10:45:00.4917087+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260213-3",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-13T11:00:00.4918147+05:00",
+      "endAtISO": "2026-02-13T11:45:00.4918147+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260213-4",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-13T14:00:00.4919211+05:00",
+      "endAtISO": "2026-02-13T14:45:00.4919211+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260213-5",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-13T15:00:00.4920281+05:00",
+      "endAtISO": "2026-02-13T15:45:00.4920281+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260213-6",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-13T16:00:00.4921343+05:00",
+      "endAtISO": "2026-02-13T16:45:00.4921343+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260214-1",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-14T09:00:00.4922531+05:00",
+      "endAtISO": "2026-02-14T09:45:00.4922531+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260214-2",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-14T10:00:00.4923589+05:00",
+      "endAtISO": "2026-02-14T10:45:00.4923589+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260214-3",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-14T11:00:00.4924895+05:00",
+      "endAtISO": "2026-02-14T11:45:00.4924895+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260214-4",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-14T14:00:00.4926489+05:00",
+      "endAtISO": "2026-02-14T14:45:00.4926489+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260214-5",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-14T15:00:00.4927916+05:00",
+      "endAtISO": "2026-02-14T15:45:00.4927916+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260214-6",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-14T16:00:00.4929650+05:00",
+      "endAtISO": "2026-02-14T16:45:00.4929650+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260215-1",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-15T09:00:00.4930979+05:00",
+      "endAtISO": "2026-02-15T09:45:00.4930979+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260215-2",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-15T10:00:00.4932104+05:00",
+      "endAtISO": "2026-02-15T10:45:00.4932104+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260215-3",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-15T11:00:00.4933192+05:00",
+      "endAtISO": "2026-02-15T11:45:00.4933192+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260215-4",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-15T14:00:00.4934373+05:00",
+      "endAtISO": "2026-02-15T14:45:00.4934373+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260215-5",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-15T15:00:00.4935455+05:00",
+      "endAtISO": "2026-02-15T15:45:00.4935455+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-3-20260215-6",
+      "doctorId": "doctor-3",
+      "startAtISO": "2026-02-15T16:00:00.4936543+05:00",
+      "endAtISO": "2026-02-15T16:45:00.4936543+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260209-1",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-09T09:00:00.4937808+05:00",
+      "endAtISO": "2026-02-09T09:45:00.4937808+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260209-2",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-09T10:00:00.4938908+05:00",
+      "endAtISO": "2026-02-09T10:45:00.4938908+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260209-3",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-09T11:00:00.4940000+05:00",
+      "endAtISO": "2026-02-09T11:45:00.4940000+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260209-4",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-09T14:00:00.4941091+05:00",
+      "endAtISO": "2026-02-09T14:45:00.4941091+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260209-5",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-09T15:00:00.4942195+05:00",
+      "endAtISO": "2026-02-09T15:45:00.4942195+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260209-6",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-09T16:00:00.4943272+05:00",
+      "endAtISO": "2026-02-09T16:45:00.4943272+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260210-1",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-10T09:00:00.4944610+05:00",
+      "endAtISO": "2026-02-10T09:45:00.4944610+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260210-2",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-10T10:00:00.4945858+05:00",
+      "endAtISO": "2026-02-10T10:45:00.4945858+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260210-3",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-10T11:00:00.4946936+05:00",
+      "endAtISO": "2026-02-10T11:45:00.4946936+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260210-4",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-10T14:00:00.4948015+05:00",
+      "endAtISO": "2026-02-10T14:45:00.4948015+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260210-5",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-10T15:00:00.4949075+05:00",
+      "endAtISO": "2026-02-10T15:45:00.4949075+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260210-6",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-10T16:00:00.4950142+05:00",
+      "endAtISO": "2026-02-10T16:45:00.4950142+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260211-1",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-11T09:00:00.4951306+05:00",
+      "endAtISO": "2026-02-11T09:45:00.4951306+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260211-2",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-11T10:00:00.4952382+05:00",
+      "endAtISO": "2026-02-11T10:45:00.4952382+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260211-3",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-11T11:00:00.4953466+05:00",
+      "endAtISO": "2026-02-11T11:45:00.4953466+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260211-4",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-11T14:00:00.4954607+05:00",
+      "endAtISO": "2026-02-11T14:45:00.4954607+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260211-5",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-11T15:00:00.4955738+05:00",
+      "endAtISO": "2026-02-11T15:45:00.4955738+05:00",
+      "status": "booked"
+    },
+    {
+      "id": "slot-doctor-4-20260211-6",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-11T16:00:00.4956810+05:00",
+      "endAtISO": "2026-02-11T16:45:00.4956810+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260212-1",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-12T09:00:00.4957963+05:00",
+      "endAtISO": "2026-02-12T09:45:00.4957963+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260212-2",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-12T10:00:00.4959038+05:00",
+      "endAtISO": "2026-02-12T10:45:00.4959038+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260212-3",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-12T11:00:00.4960110+05:00",
+      "endAtISO": "2026-02-12T11:45:00.4960110+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260212-4",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-12T14:00:00.4961185+05:00",
+      "endAtISO": "2026-02-12T14:45:00.4961185+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260212-5",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-12T15:00:00.4962249+05:00",
+      "endAtISO": "2026-02-12T15:45:00.4962249+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260212-6",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-12T16:00:00.5090432+05:00",
+      "endAtISO": "2026-02-12T16:45:00.5090432+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260213-1",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-13T09:00:00.5093393+05:00",
+      "endAtISO": "2026-02-13T09:45:00.5093393+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260213-2",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-13T10:00:00.5094847+05:00",
+      "endAtISO": "2026-02-13T10:45:00.5094847+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260213-3",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-13T11:00:00.5096004+05:00",
+      "endAtISO": "2026-02-13T11:45:00.5096004+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260213-4",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-13T14:00:00.5097151+05:00",
+      "endAtISO": "2026-02-13T14:45:00.5097151+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260213-5",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-13T15:00:00.5098579+05:00",
+      "endAtISO": "2026-02-13T15:45:00.5098579+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260213-6",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-13T16:00:00.5099874+05:00",
+      "endAtISO": "2026-02-13T16:45:00.5099874+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260214-1",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-14T09:00:00.5101077+05:00",
+      "endAtISO": "2026-02-14T09:45:00.5101077+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260214-2",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-14T10:00:00.5102150+05:00",
+      "endAtISO": "2026-02-14T10:45:00.5102150+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260214-3",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-14T11:00:00.5103114+05:00",
+      "endAtISO": "2026-02-14T11:45:00.5103114+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260214-4",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-14T14:00:00.5104185+05:00",
+      "endAtISO": "2026-02-14T14:45:00.5104185+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260214-5",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-14T15:00:00.5105438+05:00",
+      "endAtISO": "2026-02-14T15:45:00.5105438+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260214-6",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-14T16:00:00.5106522+05:00",
+      "endAtISO": "2026-02-14T16:45:00.5106522+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260215-1",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-15T09:00:00.5107549+05:00",
+      "endAtISO": "2026-02-15T09:45:00.5107549+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260215-2",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-15T10:00:00.5108459+05:00",
+      "endAtISO": "2026-02-15T10:45:00.5108459+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260215-3",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-15T11:00:00.5109371+05:00",
+      "endAtISO": "2026-02-15T11:45:00.5109371+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260215-4",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-15T14:00:00.5110278+05:00",
+      "endAtISO": "2026-02-15T14:45:00.5110278+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260215-5",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-15T15:00:00.5111178+05:00",
+      "endAtISO": "2026-02-15T15:45:00.5111178+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-4-20260215-6",
+      "doctorId": "doctor-4",
+      "startAtISO": "2026-02-15T16:00:00.5112080+05:00",
+      "endAtISO": "2026-02-15T16:45:00.5112080+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260209-1",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-09T09:00:00.5113104+05:00",
+      "endAtISO": "2026-02-09T09:45:00.5113104+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260209-2",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-09T10:00:00.5114057+05:00",
+      "endAtISO": "2026-02-09T10:45:00.5114057+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260209-3",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-09T11:00:00.5114959+05:00",
+      "endAtISO": "2026-02-09T11:45:00.5114959+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260209-4",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-09T14:00:00.5115867+05:00",
+      "endAtISO": "2026-02-09T14:45:00.5115867+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260209-5",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-09T15:00:00.5116759+05:00",
+      "endAtISO": "2026-02-09T15:45:00.5116759+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260209-6",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-09T16:00:00.5117645+05:00",
+      "endAtISO": "2026-02-09T16:45:00.5117645+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260210-1",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-10T09:00:00.5118612+05:00",
+      "endAtISO": "2026-02-10T09:45:00.5118612+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260210-2",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-10T10:00:00.5119503+05:00",
+      "endAtISO": "2026-02-10T10:45:00.5119503+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260210-3",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-10T11:00:00.5120397+05:00",
+      "endAtISO": "2026-02-10T11:45:00.5120397+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260210-4",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-10T14:00:00.5121287+05:00",
+      "endAtISO": "2026-02-10T14:45:00.5121287+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260210-5",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-10T15:00:00.5122226+05:00",
+      "endAtISO": "2026-02-10T15:45:00.5122226+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260210-6",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-10T16:00:00.5123118+05:00",
+      "endAtISO": "2026-02-10T16:45:00.5123118+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260211-1",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-11T09:00:00.5124227+05:00",
+      "endAtISO": "2026-02-11T09:45:00.5124227+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260211-2",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-11T10:00:00.5125142+05:00",
+      "endAtISO": "2026-02-11T10:45:00.5125142+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260211-3",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-11T11:00:00.5126033+05:00",
+      "endAtISO": "2026-02-11T11:45:00.5126033+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260211-4",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-11T14:00:00.5126922+05:00",
+      "endAtISO": "2026-02-11T14:45:00.5126922+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260211-5",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-11T15:00:00.5127810+05:00",
+      "endAtISO": "2026-02-11T15:45:00.5127810+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260211-6",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-11T16:00:00.5128709+05:00",
+      "endAtISO": "2026-02-11T16:45:00.5128709+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260212-1",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-12T09:00:00.5129657+05:00",
+      "endAtISO": "2026-02-12T09:45:00.5129657+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260212-2",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-12T10:00:00.5130603+05:00",
+      "endAtISO": "2026-02-12T10:45:00.5130603+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260212-3",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-12T11:00:00.5131501+05:00",
+      "endAtISO": "2026-02-12T11:45:00.5131501+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260212-4",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-12T14:00:00.5132392+05:00",
+      "endAtISO": "2026-02-12T14:45:00.5132392+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260212-5",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-12T15:00:00.5133273+05:00",
+      "endAtISO": "2026-02-12T15:45:00.5133273+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260212-6",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-12T16:00:00.5134151+05:00",
+      "endAtISO": "2026-02-12T16:45:00.5134151+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260213-1",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-13T09:00:00.5135098+05:00",
+      "endAtISO": "2026-02-13T09:45:00.5135098+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260213-2",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-13T10:00:00.5135980+05:00",
+      "endAtISO": "2026-02-13T10:45:00.5135980+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260213-3",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-13T11:00:00.5136865+05:00",
+      "endAtISO": "2026-02-13T11:45:00.5136865+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260213-4",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-13T14:00:00.5137745+05:00",
+      "endAtISO": "2026-02-13T14:45:00.5137745+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260213-5",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-13T15:00:00.5138628+05:00",
+      "endAtISO": "2026-02-13T15:45:00.5138628+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260213-6",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-13T16:00:00.5139552+05:00",
+      "endAtISO": "2026-02-13T16:45:00.5139552+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260214-1",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-14T09:00:00.5140501+05:00",
+      "endAtISO": "2026-02-14T09:45:00.5140501+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260214-2",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-14T10:00:00.5141385+05:00",
+      "endAtISO": "2026-02-14T10:45:00.5141385+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260214-3",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-14T11:00:00.5142270+05:00",
+      "endAtISO": "2026-02-14T11:45:00.5142270+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260214-4",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-14T14:00:00.5143158+05:00",
+      "endAtISO": "2026-02-14T14:45:00.5143158+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260214-5",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-14T15:00:00.5144160+05:00",
+      "endAtISO": "2026-02-14T15:45:00.5144160+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260214-6",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-14T16:00:00.5145058+05:00",
+      "endAtISO": "2026-02-14T16:45:00.5145058+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260215-1",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-15T09:00:00.5146009+05:00",
+      "endAtISO": "2026-02-15T09:45:00.5146009+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260215-2",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-15T10:00:00.5146894+05:00",
+      "endAtISO": "2026-02-15T10:45:00.5146894+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260215-3",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-15T11:00:00.5147828+05:00",
+      "endAtISO": "2026-02-15T11:45:00.5147828+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260215-4",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-15T14:00:00.5148712+05:00",
+      "endAtISO": "2026-02-15T14:45:00.5148712+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260215-5",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-15T15:00:00.5149605+05:00",
+      "endAtISO": "2026-02-15T15:45:00.5149605+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-5-20260215-6",
+      "doctorId": "doctor-5",
+      "startAtISO": "2026-02-15T16:00:00.5150482+05:00",
+      "endAtISO": "2026-02-15T16:45:00.5150482+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260209-1",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-09T09:00:00.5151493+05:00",
+      "endAtISO": "2026-02-09T09:45:00.5151493+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260209-2",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-09T10:00:00.5152399+05:00",
+      "endAtISO": "2026-02-09T10:45:00.5152399+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260209-3",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-09T11:00:00.5153294+05:00",
+      "endAtISO": "2026-02-09T11:45:00.5153294+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260209-4",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-09T14:00:00.5154188+05:00",
+      "endAtISO": "2026-02-09T14:45:00.5154188+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260209-5",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-09T15:00:00.5155083+05:00",
+      "endAtISO": "2026-02-09T15:45:00.5155083+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260209-6",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-09T16:00:00.5156034+05:00",
+      "endAtISO": "2026-02-09T16:45:00.5156034+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260210-1",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-10T09:00:00.5157002+05:00",
+      "endAtISO": "2026-02-10T09:45:00.5157002+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260210-2",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-10T10:00:00.5157902+05:00",
+      "endAtISO": "2026-02-10T10:45:00.5157902+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260210-3",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-10T11:00:00.5158800+05:00",
+      "endAtISO": "2026-02-10T11:45:00.5158800+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260210-4",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-10T14:00:00.5159693+05:00",
+      "endAtISO": "2026-02-10T14:45:00.5159693+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260210-5",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-10T15:00:00.5160584+05:00",
+      "endAtISO": "2026-02-10T15:45:00.5160584+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260210-6",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-10T16:00:00.5161478+05:00",
+      "endAtISO": "2026-02-10T16:45:00.5161478+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260211-1",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-11T09:00:00.5162431+05:00",
+      "endAtISO": "2026-02-11T09:45:00.5162431+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260211-2",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-11T10:00:00.5163321+05:00",
+      "endAtISO": "2026-02-11T10:45:00.5163321+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260211-3",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-11T11:00:00.5164400+05:00",
+      "endAtISO": "2026-02-11T11:45:00.5164400+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260211-4",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-11T14:00:00.5165304+05:00",
+      "endAtISO": "2026-02-11T14:45:00.5165304+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260211-5",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-11T15:00:00.5166182+05:00",
+      "endAtISO": "2026-02-11T15:45:00.5166182+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260211-6",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-11T16:00:00.5167075+05:00",
+      "endAtISO": "2026-02-11T16:45:00.5167075+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260212-1",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-12T09:00:00.5168017+05:00",
+      "endAtISO": "2026-02-12T09:45:00.5168017+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260212-2",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-12T10:00:00.5168904+05:00",
+      "endAtISO": "2026-02-12T10:45:00.5168904+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260212-3",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-12T11:00:00.5169789+05:00",
+      "endAtISO": "2026-02-12T11:45:00.5169789+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260212-4",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-12T14:00:00.5170674+05:00",
+      "endAtISO": "2026-02-12T14:45:00.5170674+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260212-5",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-12T15:00:00.5171559+05:00",
+      "endAtISO": "2026-02-12T15:45:00.5171559+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260212-6",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-12T16:00:00.5172482+05:00",
+      "endAtISO": "2026-02-12T16:45:00.5172482+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260213-1",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-13T09:00:00.5173426+05:00",
+      "endAtISO": "2026-02-13T09:45:00.5173426+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260213-2",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-13T10:00:00.5174311+05:00",
+      "endAtISO": "2026-02-13T10:45:00.5174311+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260213-3",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-13T11:00:00.5175199+05:00",
+      "endAtISO": "2026-02-13T11:45:00.5175199+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260213-4",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-13T14:00:00.5176092+05:00",
+      "endAtISO": "2026-02-13T14:45:00.5176092+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260213-5",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-13T15:00:00.5176973+05:00",
+      "endAtISO": "2026-02-13T15:45:00.5176973+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260213-6",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-13T16:00:00.5177849+05:00",
+      "endAtISO": "2026-02-13T16:45:00.5177849+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260214-1",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-14T09:00:00.5178791+05:00",
+      "endAtISO": "2026-02-14T09:45:00.5178791+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260214-2",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-14T10:00:00.5179672+05:00",
+      "endAtISO": "2026-02-14T10:45:00.5179672+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260214-3",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-14T11:00:00.5180590+05:00",
+      "endAtISO": "2026-02-14T11:45:00.5180590+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260214-4",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-14T14:00:00.5181477+05:00",
+      "endAtISO": "2026-02-14T14:45:00.5181477+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260214-5",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-14T15:00:00.5182360+05:00",
+      "endAtISO": "2026-02-14T15:45:00.5182360+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260214-6",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-14T16:00:00.5183432+05:00",
+      "endAtISO": "2026-02-14T16:45:00.5183432+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260215-1",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-15T09:00:00.5184528+05:00",
+      "endAtISO": "2026-02-15T09:45:00.5184528+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260215-2",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-15T10:00:00.5185436+05:00",
+      "endAtISO": "2026-02-15T10:45:00.5185436+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260215-3",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-15T11:00:00.5186320+05:00",
+      "endAtISO": "2026-02-15T11:45:00.5186320+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260215-4",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-15T14:00:00.5187207+05:00",
+      "endAtISO": "2026-02-15T14:45:00.5187207+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260215-5",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-15T15:00:00.5188094+05:00",
+      "endAtISO": "2026-02-15T15:45:00.5188094+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-6-20260215-6",
+      "doctorId": "doctor-6",
+      "startAtISO": "2026-02-15T16:00:00.5189024+05:00",
+      "endAtISO": "2026-02-15T16:45:00.5189024+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260209-1",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-09T09:00:00.5190050+05:00",
+      "endAtISO": "2026-02-09T09:45:00.5190050+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260209-2",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-09T10:00:00.5190938+05:00",
+      "endAtISO": "2026-02-09T10:45:00.5190938+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260209-3",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-09T11:00:00.5191858+05:00",
+      "endAtISO": "2026-02-09T11:45:00.5191858+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260209-4",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-09T14:00:00.5192904+05:00",
+      "endAtISO": "2026-02-09T14:45:00.5192904+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260209-5",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-09T15:00:00.5193811+05:00",
+      "endAtISO": "2026-02-09T15:45:00.5193811+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260209-6",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-09T16:00:00.5194713+05:00",
+      "endAtISO": "2026-02-09T16:45:00.5194713+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260210-1",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-10T09:00:00.5195674+05:00",
+      "endAtISO": "2026-02-10T09:45:00.5195674+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260210-2",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-10T10:00:00.5196565+05:00",
+      "endAtISO": "2026-02-10T10:45:00.5196565+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260210-3",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-10T11:00:00.5197457+05:00",
+      "endAtISO": "2026-02-10T11:45:00.5197457+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260210-4",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-10T14:00:00.5198393+05:00",
+      "endAtISO": "2026-02-10T14:45:00.5198393+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260210-5",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-10T15:00:00.5199286+05:00",
+      "endAtISO": "2026-02-10T15:45:00.5199286+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260210-6",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-10T16:00:00.5200184+05:00",
+      "endAtISO": "2026-02-10T16:45:00.5200184+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260211-1",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-11T09:00:00.5201129+05:00",
+      "endAtISO": "2026-02-11T09:45:00.5201129+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260211-2",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-11T10:00:00.5202024+05:00",
+      "endAtISO": "2026-02-11T10:45:00.5202024+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260211-3",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-11T11:00:00.5202897+05:00",
+      "endAtISO": "2026-02-11T11:45:00.5202897+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260211-4",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-11T14:00:00.5203870+05:00",
+      "endAtISO": "2026-02-11T14:45:00.5203870+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260211-5",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-11T15:00:00.5204800+05:00",
+      "endAtISO": "2026-02-11T15:45:00.5204800+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260211-6",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-11T16:00:00.5205687+05:00",
+      "endAtISO": "2026-02-11T16:45:00.5205687+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260212-1",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-12T09:00:00.5206676+05:00",
+      "endAtISO": "2026-02-12T09:45:00.5206676+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260212-2",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-12T10:00:00.5207568+05:00",
+      "endAtISO": "2026-02-12T10:45:00.5207568+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260212-3",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-12T11:00:00.5208464+05:00",
+      "endAtISO": "2026-02-12T11:45:00.5208464+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260212-4",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-12T14:00:00.5209341+05:00",
+      "endAtISO": "2026-02-12T14:45:00.5209341+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260212-5",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-12T15:00:00.5210230+05:00",
+      "endAtISO": "2026-02-12T15:45:00.5210230+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260212-6",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-12T16:00:00.5211121+05:00",
+      "endAtISO": "2026-02-12T16:45:00.5211121+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260213-1",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-13T09:00:00.5212069+05:00",
+      "endAtISO": "2026-02-13T09:45:00.5212069+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260213-2",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-13T10:00:00.5212963+05:00",
+      "endAtISO": "2026-02-13T10:45:00.5212963+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260213-3",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-13T11:00:00.5213863+05:00",
+      "endAtISO": "2026-02-13T11:45:00.5213863+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260213-4",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-13T14:00:00.5214803+05:00",
+      "endAtISO": "2026-02-13T14:45:00.5214803+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260213-5",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-13T15:00:00.5215693+05:00",
+      "endAtISO": "2026-02-13T15:45:00.5215693+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260213-6",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-13T16:00:00.5216582+05:00",
+      "endAtISO": "2026-02-13T16:45:00.5216582+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260214-1",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-14T09:00:00.5217534+05:00",
+      "endAtISO": "2026-02-14T09:45:00.5217534+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260214-2",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-14T10:00:00.5218424+05:00",
+      "endAtISO": "2026-02-14T10:45:00.5218424+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260214-3",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-14T11:00:00.5219304+05:00",
+      "endAtISO": "2026-02-14T11:45:00.5219304+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260214-4",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-14T14:00:00.5220196+05:00",
+      "endAtISO": "2026-02-14T14:45:00.5220196+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260214-5",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-14T15:00:00.5221083+05:00",
+      "endAtISO": "2026-02-14T15:45:00.5221083+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260214-6",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-14T16:00:00.5221965+05:00",
+      "endAtISO": "2026-02-14T16:45:00.5221965+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260215-1",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-15T09:00:00.5222956+05:00",
+      "endAtISO": "2026-02-15T09:45:00.5222956+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260215-2",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-15T10:00:00.5223960+05:00",
+      "endAtISO": "2026-02-15T10:45:00.5223960+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260215-3",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-15T11:00:00.5224878+05:00",
+      "endAtISO": "2026-02-15T11:45:00.5224878+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260215-4",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-15T14:00:00.5225768+05:00",
+      "endAtISO": "2026-02-15T14:45:00.5225768+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260215-5",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-15T15:00:00.5226651+05:00",
+      "endAtISO": "2026-02-15T15:45:00.5226651+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-7-20260215-6",
+      "doctorId": "doctor-7",
+      "startAtISO": "2026-02-15T16:00:00.5227530+05:00",
+      "endAtISO": "2026-02-15T16:45:00.5227530+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260209-1",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-09T09:00:00.5228558+05:00",
+      "endAtISO": "2026-02-09T09:45:00.5228558+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260209-2",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-09T10:00:00.5229445+05:00",
+      "endAtISO": "2026-02-09T10:45:00.5229445+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260209-3",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-09T11:00:00.5230342+05:00",
+      "endAtISO": "2026-02-09T11:45:00.5230342+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260209-4",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-09T14:00:00.5231269+05:00",
+      "endAtISO": "2026-02-09T14:45:00.5231269+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260209-5",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-09T15:00:00.5232144+05:00",
+      "endAtISO": "2026-02-09T15:45:00.5232144+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260209-6",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-09T16:00:00.5233026+05:00",
+      "endAtISO": "2026-02-09T16:45:00.5233026+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260210-1",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-10T09:00:00.5233969+05:00",
+      "endAtISO": "2026-02-10T09:45:00.5233969+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260210-2",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-10T10:00:00.5234856+05:00",
+      "endAtISO": "2026-02-10T10:45:00.5234856+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260210-3",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-10T11:00:00.5235728+05:00",
+      "endAtISO": "2026-02-10T11:45:00.5235728+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260210-4",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-10T14:00:00.5236618+05:00",
+      "endAtISO": "2026-02-10T14:45:00.5236618+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260210-5",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-10T15:00:00.5237787+05:00",
+      "endAtISO": "2026-02-10T15:45:00.5237787+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260210-6",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-10T16:00:00.5238732+05:00",
+      "endAtISO": "2026-02-10T16:45:00.5238732+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260211-1",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-11T09:00:00.5239746+05:00",
+      "endAtISO": "2026-02-11T09:45:00.5239746+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260211-2",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-11T10:00:00.5240636+05:00",
+      "endAtISO": "2026-02-11T10:45:00.5240636+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260211-3",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-11T11:00:00.5241521+05:00",
+      "endAtISO": "2026-02-11T11:45:00.5241521+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260211-4",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-11T14:00:00.5242418+05:00",
+      "endAtISO": "2026-02-11T14:45:00.5242418+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260211-5",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-11T15:00:00.5243307+05:00",
+      "endAtISO": "2026-02-11T15:45:00.5243307+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260211-6",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-11T16:00:00.5244329+05:00",
+      "endAtISO": "2026-02-11T16:45:00.5244329+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260212-1",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-12T09:00:00.5245292+05:00",
+      "endAtISO": "2026-02-12T09:45:00.5245292+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260212-2",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-12T10:00:00.5246179+05:00",
+      "endAtISO": "2026-02-12T10:45:00.5246179+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260212-3",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-12T11:00:00.5247058+05:00",
+      "endAtISO": "2026-02-12T11:45:00.5247058+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260212-4",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-12T14:00:00.5247983+05:00",
+      "endAtISO": "2026-02-12T14:45:00.5247983+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260212-5",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-12T15:00:00.5248872+05:00",
+      "endAtISO": "2026-02-12T15:45:00.5248872+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260212-6",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-12T16:00:00.5249744+05:00",
+      "endAtISO": "2026-02-12T16:45:00.5249744+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260213-1",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-13T09:00:00.5250689+05:00",
+      "endAtISO": "2026-02-13T09:45:00.5250689+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260213-2",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-13T10:00:00.5251577+05:00",
+      "endAtISO": "2026-02-13T10:45:00.5251577+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260213-3",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-13T11:00:00.5252466+05:00",
+      "endAtISO": "2026-02-13T11:45:00.5252466+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260213-4",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-13T14:00:00.5253353+05:00",
+      "endAtISO": "2026-02-13T14:45:00.5253353+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260213-5",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-13T15:00:00.5254247+05:00",
+      "endAtISO": "2026-02-13T15:45:00.5254247+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260213-6",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-13T16:00:00.5255153+05:00",
+      "endAtISO": "2026-02-13T16:45:00.5255153+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260214-1",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-14T09:00:00.5256108+05:00",
+      "endAtISO": "2026-02-14T09:45:00.5256108+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260214-2",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-14T10:00:00.5257055+05:00",
+      "endAtISO": "2026-02-14T10:45:00.5257055+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260214-3",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-14T11:00:00.5257944+05:00",
+      "endAtISO": "2026-02-14T11:45:00.5257944+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260214-4",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-14T14:00:00.5258839+05:00",
+      "endAtISO": "2026-02-14T14:45:00.5258839+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260214-5",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-14T15:00:00.5259729+05:00",
+      "endAtISO": "2026-02-14T15:45:00.5259729+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260214-6",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-14T16:00:00.5260616+05:00",
+      "endAtISO": "2026-02-14T16:45:00.5260616+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260215-1",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-15T09:00:00.5261565+05:00",
+      "endAtISO": "2026-02-15T09:45:00.5261565+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260215-2",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-15T10:00:00.5262455+05:00",
+      "endAtISO": "2026-02-15T10:45:00.5262455+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260215-3",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-15T11:00:00.5263337+05:00",
+      "endAtISO": "2026-02-15T11:45:00.5263337+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260215-4",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-15T14:00:00.5264378+05:00",
+      "endAtISO": "2026-02-15T14:45:00.5264378+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260215-5",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-15T15:00:00.5265332+05:00",
+      "endAtISO": "2026-02-15T15:45:00.5265332+05:00",
+      "status": "free"
+    },
+    {
+      "id": "slot-doctor-8-20260215-6",
+      "doctorId": "doctor-8",
+      "startAtISO": "2026-02-15T16:00:00.5266211+05:00",
+      "endAtISO": "2026-02-15T16:45:00.5266211+05:00",
+      "status": "free"
+    }
+  ],
+  "users": [
+    {
+      "id": "user-patient-1",
+      "email": "patient@example.com",
+      "password": "patient123",
+      "role": "patient",
+      "fullName": "Смагулов Айдар Нурланович"
+    },
+    {
+      "id": "user-admin-1",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "role": "admin",
+      "fullName": "Абдрахманова Айнура Сериковна"
+    }
+  ],
+  "appointments": [
+    {
+      "status": "scheduled",
+      "id": "appointment-1",
+      "userId": "user-patient-1",
+      "doctorId": "doctor-1",
+      "slotId": "slot-doctor-1-20260209-1",
+      "serviceId": "service-therapist",
+      "appointmentType": "offline",
+      "reason": "Плановый осмотр и контроль давления",
+      "createdAtISO": "2026-02-07T21:54:22.5320340+05:00"
+    },
+    {
+      "status": "scheduled",
+      "id": "appointment-2",
+      "userId": "user-patient-1",
+      "doctorId": "doctor-2",
+      "slotId": "slot-doctor-2-20260210-3",
+      "serviceId": "service-cardiologist",
+      "appointmentType": "online",
+      "reason": "Консультация по результатам ЭКГ",
+      "createdAtISO": "2026-02-08T21:54:22.5333618+05:00"
+    },
+    {
+      "status": "scheduled",
+      "id": "appointment-3",
+      "userId": "user-patient-1",
+      "doctorId": "doctor-4",
+      "slotId": "slot-doctor-4-20260211-5",
+      "serviceId": "service-endocrinologist",
+      "appointmentType": "offline",
+      "reason": "Коррекция терапии и анализы",
+      "createdAtISO": "2026-02-09T21:54:22.5334561+05:00"
+    },
+    {
+      "status": "scheduled",
+      "id": "66b2",
+      "userId": "user-patient-1",
+      "doctorId": "doctor-1",
+      "slotId": "slot-doctor-1-20260209-2",
+      "serviceId": "service-therapist",
+      "appointmentType": "online",
+      "reason": "Плановая проверка состояния и консультация",
+      "createdAtISO": "2026-02-09T18:11:40.702Z"
+    },
+    {
+      "status": "scheduled",
+      "id": "bbaa",
+      "userId": "user-patient-1",
+      "doctorId": "doctor-1",
+      "slotId": "slot-doctor-1-20260209-3",
+      "serviceId": "service-therapist",
+      "appointmentType": "online",
+      "reason": "Плановая проверка состояния и консультация",
+      "createdAtISO": "2026-02-09T18:12:14.849Z"
+    },
+    {
+      "status": "scheduled",
+      "id": "31ad",
+      "userId": "user-patient-1",
+      "doctorId": "doctor-1",
+      "slotId": "slot-doctor-1-20260209-4",
+      "serviceId": "service-therapist",
+      "appointmentType": "online",
+      "reason": "Плановая проверка состояния и консультация",
+      "createdAtISO": "2026-02-09T18:28:02.780Z"
+    },
+    {
+      "status": "scheduled",
+      "id": "187d",
+      "userId": "user-patient-1",
+      "doctorId": "doctor-1",
+      "slotId": "slot-doctor-1-20260209-5",
+      "serviceId": "service-therapist",
+      "appointmentType": "online",
+      "reason": "Плановая проверка состояния и консультация",
+      "createdAtISO": "2026-02-09T18:28:32.746Z"
+    },
+    {
+      "status": "scheduled",
+      "id": "e91f",
+      "userId": "user-patient-1",
+      "doctorId": "doctor-1",
+      "slotId": "slot-doctor-1-20260209-6",
+      "serviceId": "service-therapist",
+      "appointmentType": "online",
+      "reason": "Плановая проверка состояния и консультация",
+      "createdAtISO": "2026-02-09T18:29:11.675Z"
+    },
+    {
+      "status": "scheduled",
+      "id": "aba5",
+      "userId": "user-patient-1",
+      "doctorId": "doctor-1",
+      "slotId": "slot-doctor-1-20260210-1",
+      "serviceId": "service-therapist",
+      "appointmentType": "online",
+      "reason": "Плановая проверка состояния и консультация",
+      "createdAtISO": "2026-02-09T18:31:35.547Z"
+    },
+    {
+      "status": "scheduled",
+      "id": "476d",
+      "userId": "user-patient-1",
+      "doctorId": "doctor-1",
+      "slotId": "slot-doctor-1-20260210-2",
+      "serviceId": "service-therapist",
+      "appointmentType": "online",
+      "reason": "Плановая проверка состояния и консультация 1770664107146",
+      "createdAtISO": "2026-02-09T19:08:27.268Z"
+    },
+    {
+      "status": "scheduled",
+      "id": "92eb",
+      "userId": "user-patient-1",
+      "doctorId": "doctor-1",
+      "slotId": "slot-doctor-1-20260210-3",
+      "serviceId": "service-therapist",
+      "appointmentType": "online",
+      "reason": "Плановая проверка состояния и консультация 1770664140493",
+      "createdAtISO": "2026-02-09T19:09:00.614Z"
+    },
+    {
+      "id": "48a8",
+      "userId": "user-patient-1",
+      "doctorId": "doctor-1",
+      "slotId": "slot-doctor-1-20260210-4",
+      "serviceId": "service-therapist",
+      "appointmentType": "online",
+      "status": "scheduled",
+      "reason": "Плановая проверка состояния и консультация 1770734660651",
+      "contactEmail": "patient@example.com",
+      "contactPhone": "+77011234567",
+      "createdAtISO": "2026-02-10T14:44:20.766Z"
+    },
+    {
+      "id": "145c",
+      "userId": "user-patient-1",
+      "doctorId": "doctor-1",
+      "slotId": "slot-doctor-1-20260210-5",
+      "serviceId": "service-therapist",
+      "appointmentType": "online",
+      "status": "scheduled",
+      "reason": "Плановая проверка состояния и консультация 1770735230008",
+      "contactEmail": "patient@example.com",
+      "contactPhone": "+77011234567",
+      "createdAtISO": "2026-02-10T14:53:50.155Z"
+    }
+  ],
+  "slotHolds": [
+    {
+      "id": "slot-hold-1",
+      "slotId": "slot-doctor-5-20260209-2",
+      "userId": "user-patient-1",
+      "expiresAtISO": "2026-02-09T22:09:22.5335433+05:00"
+    },
+    {
+      "id": "slot-hold-2",
+      "slotId": "slot-doctor-8-20260210-4",
+      "userId": "user-patient-1",
+      "expiresAtISO": "2026-02-09T22:19:22.5348380+05:00"
+    }
+  ]
+}
